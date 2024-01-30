@@ -2,9 +2,9 @@ from fastapi import FastAPI
 from pydantic import BaseModel
 from typing import Optional
 
-app = FastAPI()
+app = FastAPI() 
 
-class Item(BaseModel):
+class Item(BaseModel): 
     name : str
     price : float
     brand : Optional[str] = None
